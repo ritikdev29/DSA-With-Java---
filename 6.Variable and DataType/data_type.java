@@ -10,7 +10,7 @@ public class data_type {
         System.out.println("Boolean valus is : " + var);
     }
     {
-        //use method scope
+        //use method scope                   
         
     }
     
