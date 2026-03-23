@@ -21,7 +21,7 @@ public class Pattern {
     }
 
     public static void main(String[] args) {
-        hollow_rectangle(4, 05);
+        hollow_rectangle(4, 5);
     }
 
 }
