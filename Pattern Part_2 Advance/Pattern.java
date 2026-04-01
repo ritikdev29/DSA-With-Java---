@@ -14,20 +14,36 @@ public class Pattern {
                     System.out.print(" ");
                 }
             }
-        System.out.println();
+            System.out.println();
 
         }
-    
+
     }
-    public static void inverted_rotated_half_pyramid(int n){
-        for(int i=1;i<=n;i++){
+
+    public static void inverted_rotated_half_pyramid(int n) {
+        for (int i = 1; i <= n; i++) {
             // spaces
-            for(int j=1;j<=n-i;j++){
+            for (int j = 1; j <= n - i; j++) {
                 System.out.print(" ");
             }
             // star
-            for(int j=1;j<=i;j++){
+            for (int j = 1; j <= i; j++) {
                 System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void inverted_half_Pyramid_Pattern(int n) {
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n - i + 1; j++) {
+                System.out.print(j);
+
+                // System.out.print(j+" "); for some space use
+                
+
+
+
             }
             System.out.println();
         }
@@ -36,6 +52,8 @@ public class Pattern {
     public static void main(String[] args) {
         hollow_rectangle(4, 5);
         inverted_rotated_half_pyramid(4);
+  
+        inverted_half_Pyramid_Pattern(5);
     }
 
 }
