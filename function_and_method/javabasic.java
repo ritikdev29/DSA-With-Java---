@@ -41,18 +41,9 @@ public class javabasic {
     int k = sc.nextInt();
     int value;
 
-
-    switch (sc) {
-        case 1:
-        
-        System.out.println("The sum is : " +r+k);
-            
-            break;
+    }
     
-        default:
-            break;
-    }
-    }
+    
 
     public static void main(String[] args) {
         // helloworld();
