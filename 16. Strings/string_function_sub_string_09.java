@@ -1,5 +1,5 @@
 // import java.util.*;
-public class string_function_sub_string {
+public class string_function_sub_string_09 {
 
     // create a function ---->
     public static String subString(String str, int si, int ei) { // si = starting index,ei = ending index
