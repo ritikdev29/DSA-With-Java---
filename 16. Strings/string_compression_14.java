@@ -22,7 +22,7 @@ public class string_compression_14 {
 
     public static void main(String[] args) {
         String str = "aaabbddccjj";
-        System.out.println("Your string compression is : " + compression(str));
+        System.out.println("Your string compression is : " + compression(str));  // output = Your string compression is : a3b2d2c2j2
         
     }
 }
