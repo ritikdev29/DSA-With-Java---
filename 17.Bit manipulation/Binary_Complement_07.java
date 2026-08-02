@@ -21,7 +21,7 @@ public class Binary_Complement_07 {
         System.out.println("1`s complement : " + result);
 
         // output Original Binary :1011001
-        // 1`s complement : 0100110
+        // 1`s complement : 0100110------>
 
     }
 
